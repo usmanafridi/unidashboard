@@ -1,25 +1,25 @@
 
 body {
-  background-color: #192444;
+  background-color: #F8F8F8;
   margin: 5%;
 }
 
 .card_container {
   border-radius: 2px;
-  background-color: #1f2c56;
+  background-color: white;
   margin: 15px;
   padding: 15px;
   position: relative;
-  box-shadow: 2px 2px 2px #1f2c56;
+  box-shadow: 2px 2px 2px white;
 }
 
 .create_container {
   border-radius: 5px;
-  background-color: #1f2c56;
+  background-color: white;
   margin: 15px;
   padding: 15px;
-  position: relative;
-  box-shadow: 2px 2px 2px #1f2c56;
+  position:relative ;
+  box-shadow: 2px 2px 2px white;
 }
 
 .create_container1 {
@@ -28,7 +28,7 @@ body {
   margin: 10px;
   padding: 15px;
   position: relative;
-  box-shadow: 2px 2px 2px #1f2c56;
+  box-shadow: 2px 2px 2px white;
 }
 
 .dcc_compon {
@@ -69,6 +69,11 @@ font-size: 20px;
   margin-top: 30px;
 }
 
+#logo {
+  text-align: center;
+}
+
+
 #title {
   text-align: center;
 }
@@ -88,9 +93,11 @@ font-size: 20px;
 .select-up,
 .is-open
 .Select-control {
-  background-color: #1f2c56;
-  color: white;
+  background-color: white;
+  color: black;
 }
+
+
 
 .Select-control{
   border: 0.5px solid green;
@@ -98,7 +105,7 @@ font-size: 20px;
 
 .has-value.Select--single>.Select-control .Select-value .Select-value-label,
 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
-  color: white;
+  color: black;
 }
 
 /* width */
